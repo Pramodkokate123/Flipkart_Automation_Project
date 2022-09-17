@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [poi]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="lkj(failed)" verbose="0">
+    <parameter name="item" value="glasses"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Execution.WithoutLogin">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="p2_Search_Item" invocation-numbers="0"/>
+          <include name="p4_WithoutLogin"/>
+          <include name="p3_Product_Process"/>
+        </methods>
+      </class> <!-- Execution.WithoutLogin -->
+    </classes>
+  </test> <!-- lkj(failed) -->
+</suite> <!-- Failed suite [poi] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="poi">
+    <test name="lkj">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="item" value="glasses"/>
+        <classes>
+            <class name="Cucumber_Runner_Files.Without_Login_Runner"/>
+        </classes>
+    </test>
+</suite>
