@@ -6,6 +6,8 @@
         <parameter name="item" value="glasses"/>
         <classes>
             <class name="Cucumber_Runner_Files.Without_Login_Runner"/>
+            <class name="Listeners.Listeners"/>
+            <class name="Execution.WithoutLogin"/>
         </classes>
     </test>
 </suite>
